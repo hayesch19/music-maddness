@@ -5,7 +5,7 @@ import LifeIsGood from '../images/lifeisgood.jpg'
 export class Molly extends Component {
   render() {
     return (
-      <section>
+      <section className="band-profile">
         <h2>Flogging Molly</h2>
         <img className="band-photo" src={FloggingMolly} alt="Band Photo" />
         <div className="album-area">

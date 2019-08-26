@@ -5,7 +5,7 @@ import FriendsForLife from '../images/friendsforlife.jpg'
 class Kings extends Component {
   render() {
     return (
-      <section>
+      <section className="band-profile">
         <h2>The High Kings</h2>
         <img className="band-photo" src={HighKings} alt="Band Photo" />
         <div className="album-area">
